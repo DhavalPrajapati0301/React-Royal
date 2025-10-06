@@ -10,6 +10,6 @@ console.log("userlist prop",props)
         <h4>{props.user.id}</h4>
         <h4>{props.user.name}</h4>
         <h4>{props.user.age}</h4> 
-        </div>
+        </div> 
   )
 }

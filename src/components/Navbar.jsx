@@ -8,7 +8,7 @@ export const Navbar = (props) => {
     <div>
       {props.title}
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Netflix</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -18,6 +18,7 @@ export const Navbar = (props) => {
             <Link class="nav-item nav-link" to="/netflixmovie">Netflix Movies</Link>
             <Link class="nav-item nav-link" to="/netflixshows">Netflix Shows</Link>
             <Link class="nav-item nav-link" to="/user">Users</Link>
+             <Link class="nav-item nav-link" to="/employee">Employee</Link>
         
           </div>
         </div>

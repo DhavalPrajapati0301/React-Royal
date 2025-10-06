@@ -11,21 +11,23 @@ import { NetflixHome } from './netflix/NetflixHome'
 import {Error404}  from './components/Error404';
 import {Navbar}  from './components/Navbar';
 import { Watch } from './netflix/Watch'
-import { Users } from './components/Users'
+import { Users } from './Props/Users'
+import { Employee } from './Props/Employee'
 
 // import { UseState } from './components/UseState'
 
 function App() {  
-var title = "React" 
+// var title = "React" 
   return (
     <div>
-      <Navbar title = {title}/>
+      <Navbar></Navbar>
       <Routes>
         <Route path='/watch/:name' element={<Watch/>}></Route>
         <Route  path='/netflixhome' element={<NetflixHome/>}> </Route>
         <Route  path='/netflixmovie' element={<NetflixMovies/>}> </Route>
         <Route  path='/netflixshows' element={<NetflixShows/>}> </Route>
         <Route path='/user' element={<Users/>}></Route>
+        <Route path='/employee' element={<Employee/>}></Route>
         <Route path='/*'  element={<Error404/>}></Route>
       </Routes>
     </div>
