@@ -2,7 +2,6 @@ import React from 'react'
 import { EmployeeList } from './EmployeeList'
 
 export const Employee = () => {
-
     const empl = [
         {
             id: 1,
@@ -20,7 +19,6 @@ export const Employee = () => {
             salary: 50000 
         }
     ]
-
     return (
         <div style={{ textAlign: "center", color: "black" }}>
             <h1>Employee</h1>

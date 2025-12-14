@@ -23,8 +23,6 @@ export const EmployeeList = (props) => {
                   <td>{emp.salary}</td>
                 </tr>
               ))
-           
-            
           }
         </tbody>
       </table>

@@ -8,7 +8,6 @@ export const Mapdemo2 = () => {
         { id: "3", name: "harsh", age: "20", gender: "male" },
         { id: "4", name: "raj", age: "19", gender: "male" },
     ]
-
     return (
         <div style={{textAlign:"center"}}>
              <h1>Mapdemo2</h1>
@@ -22,4 +21,3 @@ export const Mapdemo2 = () => {
     )
 }
 
-// export default Mapdemo2
